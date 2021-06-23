@@ -176,7 +176,7 @@ exports.forgotPasswordWithNumber = catchAsync(async (req, res, next) => {
   }
 });
 
-//? Reset Password Via Phone Number
+//? Reset Password Via Phone Number.
 exports.resetPasswordWithNumber = catchAsync(async (req, res, next) => {
   const hashedToken = req.params.token;
 
